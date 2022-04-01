@@ -1137,14 +1137,14 @@ break
 
     『 *BOT INFO* 』
 
-⛱ *Device* : xiaomi redmi 4A
+⛱ *Device* : Vivo v20
 🗺 *Wa Version* : 2.22.3.77
 💬 *OS Version* : 10
 🌐 *Platfrom* : android/pc
 📳 *Mode* : > public mode <
 ☢ *Prefix* : > multi prefix <
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : Ramdani Official
+👨💻 *Name Creator* : Kevin Afsar
 
 
        『 *USER INFO* 』
@@ -1818,7 +1818,7 @@ break
 
                buttonsMessage = {
                contentText: `${allmenu}`,
-               footerText: '© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
+               footerText: '© ʙʏ XHIVIER ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1858,11 +1858,11 @@ case 'infobot2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *INFO BOT* ━━━━━
-❏ BASE ORI : Ramdani Official
+❏ BASE ORI : - -
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
-❏ GITHUB CREATOR : https://github.com/Ramdaniofficial
-❏ YT CREATOR : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg
+❏ GITHUB CREATOR : -
+❏ YT CREATOR : -
 *━━━━━━━━━━━━━━━━━━━━*`)
 randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -1871,8 +1871,8 @@ case 'script2': case 'sc2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *SCRIPT* ━━━━━
-❏ LINK VIA GITHUB : https://github.com/Ramdaniofficial/v17
-❏ BASE ORI : Ramdani Official
+❏ LINK VIA GITHUB : -
+❏ BASE ORI : - -
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
 *━━━━━━━━━━━━━━━━━━━━*`)
@@ -1892,7 +1892,7 @@ break
 
                buttonsMessage = {
                contentText: `${qris}`,
-               footerText: '© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
+               footerText: '© ʙʏ XHIVIER ᴏғғɪᴄɪᴀʟ', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1999,7 +1999,7 @@ case 'tqtq':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
+• RAMDANI OFFICIAL (YG PUNYA ESCEHH🗿)
 • ARUL (MY GURU)
 • MHANKBARBAR (MASTAH)
 • APRILIA
@@ -2013,6 +2013,7 @@ freply(`• *BIG THANKS TO*
 • KURR XD OFFICIAL
 • DIKA XD
 • SIEGRIN
+• KEVIN GANTENG
 • KANNABOT
 • YANZ BOT`)
 randomaudi = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
